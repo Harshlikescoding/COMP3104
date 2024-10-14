@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Harshlikescoding/COMP3104.git/static/css/main.27ca76a1.css",
+    "main.js": "/Harshlikescoding/COMP3104.git/static/js/main.981c8091.js",
+    "static/js/453.eda87f99.chunk.js": "/Harshlikescoding/COMP3104.git/static/js/453.eda87f99.chunk.js",
+    "index.html": "/Harshlikescoding/COMP3104.git/index.html",
+    "main.27ca76a1.css.map": "/Harshlikescoding/COMP3104.git/static/css/main.27ca76a1.css.map",
+    "main.981c8091.js.map": "/Harshlikescoding/COMP3104.git/static/js/main.981c8091.js.map",
+    "453.eda87f99.chunk.js.map": "/Harshlikescoding/COMP3104.git/static/js/453.eda87f99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27ca76a1.css",
+    "static/js/main.981c8091.js"
+  ]
+}
