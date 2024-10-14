@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Project</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <title>Lab 01 - COMP3104 Project</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,68 +16,110 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            height: auto;
+            padding-top: 120px;
+        }
+        header {
+            background-color: grey;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
         }
         h1 {
-            color: #333;
             font-size: 3em;
-            margin-bottom: 20px;
+            margin: 0;
+            color: #233422;
+        }
+        h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
         }
         p {
             color: #666;
             font-size: 1.2em;
-            margin-bottom: 30px;
+            margin: 20px 0;
             max-width: 600px;
         }
-        .features {
+        .section {
+            padding: 20px;
             margin: 20px 0;
-            text-align: left;
-        }
-        .feature {
-            background: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin: 10px 0;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 80%;
         }
         .call-to-action {
             margin-top: 40px;
         }
         .cta-button {
-            background-color: #4CAF50; /* Green */
+            background-color: grey;
             color: white;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 1.5em;
-            margin: 4px 2px;
+            margin: 20px 0;
             cursor: pointer;
             border: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
         .cta-button:hover {
-            background-color: #45a049; /* Darker green */
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Project!</h1>
-    <p>This is a simple React application that showcases the capabilities of modern web development. Explore the features below to learn more about what this project offers.</p>
-    
-    <div class="features">
-        <h2>Features</h2>
-        <div class="feature">✔️ Responsive Design</div>
-        <div class="feature">✔️ Interactive User Interface</div>
-        <div class="feature">✔️ Real-time Data Updates</div>
-        <div class="feature">✔️ Easy Navigation</div>
-        <div class="feature">✔️ Cross-Platform Compatibility</div>
+    <header>
+        <h1>Lab 01</h1>
+        <h2>Course: COMP3104</h2>
+    </header>
+    <div class="section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Harsh Chaudhary, a passionate learner in the field of web development. I enjoy creating interactive web applications and continuously improving my skills. I believe in building user-friendly interfaces that provide a great user experience.</p>
     </div>
+
+    <div class="section">
+        <h2>About This Project</h2>
+        <p>This project is a simple React application developed as part of the COMP3104 course. It showcases modern web development techniques and best practices. Through this project, I aim to enhance my skills in building responsive and interactive web applications.</p>
+    </div>
+
+    <div class="section">
+        <h2>Skills & Technologies</h2>
+        <p>Throughout this project, I utilized several technologies and skills, including:</p>
+        <ul style="list-style-type: none; padding: 0;">
+            <li>React for building user interfaces</li>
+            <li>JavaScript for interactive elements</li>
+            <li>CSS for styling and layout</li>
+            <li>Git and GitHub for version control and collaboration</li>
+            <li>Responsive design principles</li>
+        </ul>
+    </div>
+
     
+
     <div class="call-to-action">
-        <p>Interested in learning more? Check out the project on GitHub!</p>
+        <p>Interested in more? Check out the project on GitHub!</p>
         <a href="https://github.com/Harshlikescoding/COMP3104.git" class="cta-button" target="_blank">View on GitHub</a>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Harsh Chaudhary. All rights reserved.</p>
+    </footer>
 </body>
 </html>
