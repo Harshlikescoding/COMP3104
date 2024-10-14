@@ -15,6 +15,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             height: 100vh;
         }
         h1 {
@@ -26,8 +27,23 @@
             color: #666;
             font-size: 1.2em;
             margin-bottom: 30px;
+            max-width: 600px;
         }
-        .enter-button {
+        .features {
+            margin: 20px 0;
+            text-align: left;
+        }
+        .feature {
+            background: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin: 10px 0;
+        }
+        .call-to-action {
+            margin-top: 40px;
+        }
+        .cta-button {
             background-color: #4CAF50; /* Green */
             color: white;
             padding: 15px 32px;
@@ -41,14 +57,27 @@
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
-        .enter-button:hover {
+        .cta-button:hover {
             background-color: #45a049; /* Darker green */
         }
     </style>
 </head>
 <body>
     <h1>Welcome to My Project!</h1>
-    <p>This is a simple React application that demonstrates the capabilities of modern web development.</p>
-    <a href="/app" class="enter-button">Enter the App</a> <!-- Change /app to your actual app path -->
+    <p>This is a simple React application that showcases the capabilities of modern web development. Explore the features below to learn more about what this project offers.</p>
+    
+    <div class="features">
+        <h2>Features</h2>
+        <div class="feature">✔️ Responsive Design</div>
+        <div class="feature">✔️ Interactive User Interface</div>
+        <div class="feature">✔️ Real-time Data Updates</div>
+        <div class="feature">✔️ Easy Navigation</div>
+        <div class="feature">✔️ Cross-Platform Compatibility</div>
+    </div>
+    
+    <div class="call-to-action">
+        <p>Interested in learning more? Check out the project on GitHub!</p>
+        <a href="https://github.com/Harshlikescoding/COMP3104.git" class="cta-button" target="_blank">View on GitHub</a>
+    </div>
 </body>
 </html>
